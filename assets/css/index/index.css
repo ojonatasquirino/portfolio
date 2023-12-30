@@ -1,0 +1,11 @@
+/* Index */
+@import '../global/global.css';
+/* Partials */
+@import './partials/nav.css';
+@import './partials/section-apresentacao.css';
+@import './partials/section-sobre.css';
+@import './partials/section-tecnologias.css';
+@import './partials/section-github.css';
+@import './partials/section-projetos.css';
+@import './partials/footer.css';
+

@@ -1,0 +1,35 @@
+/* Essas são as variáveis para usar no site e ficar mais escalável a edição das coisas */
+:root {
+  --cor-branco: #FFFFFF;
+  --cor-preto: #000000;
+  --cor-primaria: #aeaeae;
+  --cor-secundaria-1: #f2f2f2;
+  --cor-secundaria-2: #020202;
+  --cor-secundaria-3: #ffffff;
+  --cor-secundaria-4: #6b6b6b;
+  --regular: 'SpaceGrotesk-regular';
+  --bold: 'SpaceGrotesk-bold';
+  --semi-bold: 'SpaceGrotesk-SemiBold';
+  --medium: 'SpaceGrotesk-Medium'
+}
+
+/* variável de cores degrade*/
+
+
+:root {
+  --gradient-titulo: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.499), rgba(112, 112, 112, 0.937),  rgba(199, 199, 199, 0.937));
+}
+
+:root {
+  --gradient-dev: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.499), rgba(243, 243, 243, 0.156),  rgb(255, 255, 255));
+}
+
+:root {
+  --gradient-header: linear-gradient(
+    to right,
+    rgb(27, 27, 31), rgba(77, 79, 83, 0.516));
+}

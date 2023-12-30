@@ -1,0 +1,123 @@
+/* <section class="sobre"> */
+section.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-secundaria-2);
+}
+/* Titulo */
+section.sobre .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+  padding: 100px;
+}
+section.sobre .titulo h2 {
+  font-family: var(--bold);
+  font-size: 2.5rem;
+  line-height: 1;
+  background-image: var(--gradient-titulo);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100%;
+  max-width: 600px;
+  width: 100%;
+  max-width: 500px;
+}
+
+section.sobre .titulo p {
+  font-family: var(--regular);
+  font-size: 1rem;
+  color: var(--cor-branco);
+  padding: 20px 000;
+  width: 100%;
+  max-width: 400px;
+  line-height: 1.5;
+}
+/* Itens */
+section.sobre .img .item img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+
+  background-color: none;
+
+  margin-right: 150px;
+}
+section.sobre .itens .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 50%;
+  height: 100%;
+  min-height: 200px;
+  padding: 20px;
+}
+section.sobre .itens .item.diferente {
+  background-color: var(--cor-secundaria-3);
+}
+section.sobre .itens .item h3 {
+  font-family: var(--bold);
+  font-size: 3rem;
+  color: var(--cor-primaria);
+  text-align: center;
+  padding-bottom: 10px;
+}
+section.sobre .itens .item.diferente h3 {
+  color: var(--cor-branco);
+}
+section.sobre .itens .item p {
+  font-family: var(--regular);
+  font-size: 0.8rem;
+  color: var(--cor-branco);
+  line-height: 1.5;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* sobre mim */
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.sobre {
+    flex-direction: column;
+  }
+  section.sobre .titulo {
+    width: 100%;
+  }
+  section.sobre .titulo {
+    padding: 80px 34px;
+  }
+  section.sobre .titulo h2 {
+    font-size: 2.5rem;
+    max-width: 450px;
+  }
+  section.sobre .titulo p {
+    font-size: 1.2rem;
+    max-width: 550px;
+  }
+  section.sobre .itens .item h3 {
+    font-size: 2rem;
+  }
+  section.sobre .itens .item p {
+    font-size: 0.7rem;
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section.sobre .img .item img {
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    margin-bottom: 110px;
+    margin-right: 0px;
+  }
+}
