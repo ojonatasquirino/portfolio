@@ -1,5 +1,5 @@
 <h1 align='center'> portfolio </h1> 
-<h3 align='center'>  acesse o<a href="https://portfolio-cg1zmj57j-jonatas-quirinos-projects.vercel.app/">  deploy  </a>desse projeto<h3>
+<h3 align='center'>  acesse o<a href="https://portfolio-cg1zmj57j-jonatas-quirinos-projects.vercel.app/">  deploy  </a>do portfólio<h3>
 
 #
 
