@@ -53,15 +53,15 @@ section.github .titulo h2 span {
   color: var(--cor-secundaria-4);
 }
 section.github .titulo p {
-  font-family: var(--regular);
-  font-size: 1rem;
+  font-family: var(--medium);
+  font-size: 1.1rem;
   line-height: 1.5;
   color: var(--cor-secundaria-1);
   margin: 10px 0 20px 0;
   width: 100%;
   max-width: 800px;
 }
-section.github .titulo button {
+section.github .titulo a {
   font-family: var(--bold);
   font-size: 1.2rem;
   color: var(--cor-branco);
@@ -72,7 +72,7 @@ section.github .titulo button {
   border-radius: 10px;
   transition: all 0.3s;
 }
-section.github .titulo button:hover {
+section.github .titulo a:hover {
   color: var(--cor-secundaria-1);
   background-color: var(--cor-primaria);
   box-shadow: 0 10px 20px 0 var(--cor-primaria);

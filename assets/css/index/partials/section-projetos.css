@@ -25,8 +25,8 @@ section.projetos .titulo h2 {
   max-width: 500px;
 }
 section.projetos .titulo p {
-  font-family: var(--regular);
-  font-size: 1rem;
+  font-family: var(--medium);
+  font-size: 1.2rem;
   line-height: 1.5;
   color: var(--cor-preto);
   margin: 20px 0 0 0;

@@ -30,7 +30,7 @@ section.sobre .titulo h2 {
 
 section.sobre .titulo p {
   font-family: var(--regular);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--cor-branco);
   padding: 20px 000;
   width: 100%;
