@@ -1,53 +1,23 @@
-<h1 align="center"> Portfolio</h1>
+<h1 align='center'> portfolio </h1> 
+<h3 align='center'>  acesse o<a href="https://portfolio-cg1zmj57j-jonatas-quirinos-projects.vercel.app/">  deploy  </a>do portfólio<h3>
 
-[comment]: <> (Adicione o seu usuário  e o nome do repositório)
+#
 
-<p align="center">
-  <image
-  src="https://img.shields.io/github/languages/count/ojonatasquirino/portfolio"
-  />
-  <image
-  src="https://img.shields.io/github/languages/top/ojonatasquirino/portfolio"
-  />
-  <image
-  src="https://img.shields.io/github/last-commit/ojonatasquirino/portfolio"
-  />
+<p> Apresentação das minhas principais habilidades técnicas, projetos desenvolvidos e plataformas de interação on-line. </p>
 
-</p>
+## ambiente e ferramentas de codificação
+![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)
+![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
+![VERCEL](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=fff2)
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)
+![Windows](https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
+## tecnologias utilizadas
+[![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=red)]()
+[![CSS](https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)]()
+[![JAVASCRIPT](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow)]()
 
-# sumário 
+[comment]: <> (link para adicionar badges: https://dev.to/envoy_/150-badges-for-github-pnk) 
 
-- [objetivos](#id01)
-- [descrição detalhada](#id01.01)
-- [tecnologias utilizadas](#id04)
-- [ambiente de codificação](#id05)
-- [clonagem e instalação](#id06)
-- [deploy e implatação](#id06.01)
-- [autoria](#id07)
-
-
-
-# objetivos <a name="id01"></a>
-
-
-[objetivo do projeto]
-
-
-
-# descrição detalhada <a name="id01.01"></a>
-
-
-[descrição mais detalhada do projeto]
-
-
-
-# tecnologias utilizadas <a name="id04"></a>
-
-<div  align='center'> 
-
- [badges da stack]
- [badges da stack]
- [badges da stack]
 </div>
 
 # ambiente de codificação <a name="id05"></a>
@@ -66,7 +36,7 @@
 Clone este repositório usando o comando:
 
 ```bash
-git clone [link do repositório remoto]
+git clone https://github.com/ojonatasquirino/portfolio.git
 ```
 
 Instale na pasta do projeto as dependências com uso do npm ou yarn:
@@ -90,8 +60,28 @@ yarn start
 ```
 
 
+# deploy e implatação  <a name="id06.01"></a>
 
-[comment]: <> (Adicione o link da implatação, se houver)
+<div  align='center'> 
+
+[![Interface](https://img.shields.io/badge/visualizar_portfolio-000?style=for-the-badge&logo=&logoColor=054595)](https://portfolio-git-main-jonatas-quirinos-projects.vercel.app/)
+
+</div>
+
+
+# responsividade  <a name="id06.02"></a>
+
+## mobile 
+
+<img src="https://github.com/ojonatasquirino/portfolio/assets/105068717/1ba996b6-9d2d-4537-a92b-86892a0c2383" alt="Descrição da imagem" width="300"   />
+
+
+## desktop 
+
+[comment]: <> (adicione a imagem)
+
+ ![image](https://github.com/ojonatasquirino/portfolio/assets/105068717/cfb44a81-1123-4dc9-bc09-c8357ec87f35)
+
 
 # autoria <a name="id07"></a>
 
@@ -115,22 +105,3 @@ yarn start
 [![TabNews](https://img.shields.io/badge/tabnews-0D1117?style=for-the-badge&logo=Databricks&logoColor=fff)](https://www.tabnews.com.br/ojonatasquirino)
 [![github](https://img.shields.io/badge/Github-0D1117?style=for-the-badge&logo=github&logoColor=fff)](https://www.github.com/ojonatasquirino)
 </div>
-
-
-<h1 align='center'> portfolio </h1> 
-<h3 align='center'>  acesse o<a href="https://portfolio-cg1zmj57j-jonatas-quirinos-projects.vercel.app/">  deploy  </a>do portfólio<h3>
-
-#
-
-<p> Apresentação das minhas principais habilidades técnicas, projetos desenvolvidos e plataformas de interação on-line. </p>
-
-## ambiente e ferramentas de codificação
-![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)
-![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
-![VERCEL](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=fff2)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)
-![Windows](https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
-## tecnologias utilizadas
-[![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=red)]()
-[![CSS](https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)]()
-[![JAVASCRIPT](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow)]()
