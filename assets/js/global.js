@@ -10,3 +10,8 @@
   desativarDragDrop()
 
 }())
+
+// Atualizando o ano footer automaticamente
+
+const year = document.querySelector("#current-year");
+year.innerHTML = new Date().getFullYear();

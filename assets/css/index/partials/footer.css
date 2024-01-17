@@ -22,7 +22,8 @@ footer .uteis {
 
 footer .texto p {
   font-family: var(--regular);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--cor-branco);
+  text-align: center;
 }
 
