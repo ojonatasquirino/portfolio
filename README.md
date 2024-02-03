@@ -1,22 +1,53 @@
-<h1 align='center'> portfolio </h1> 
-<h3 align='center'>  acesse o<a href="https://portfolio-cg1zmj57j-jonatas-quirinos-projects.vercel.app/">  deploy  </a>do portfólio<h3>
 
-#
+<h1 align="center"> portfólio</h1>
 
-<p> Apresentação das minhas principais habilidades técnicas, projetos desenvolvidos e plataformas de interação on-line. </p>
+[comment]: <> (Adicione o seu usuário  e o nome do repositório)
 
-## ambiente e ferramentas de codificação
-![Git](https://img.shields.io/badge/-Git-0D1117?style=for-the-badge&logo=git&labelColor=0D1117)
-![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
-![VERCEL](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=fff2)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC&labelColor=0D1117)
-![Windows](https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows&labelColor=0D1117)&nbsp;
-## tecnologias utilizadas
+<p align="center">
+  <image
+  src="https://img.shields.io/github/languages/count/ojonatasquirino/portfolio"
+  />
+  <image
+  src="https://img.shields.io/github/languages/top/ojonatasquirino/portfolio"
+  />
+  <image
+  src="https://img.shields.io/github/last-commit/ojonatasquirino/portfolio"
+  />
+
+</p>
+
+# sumário 
+
+- [objetivos](#id01)
+- [descrição detalhada](#id01.01)
+- [tecnologias utilizadas](#id04)
+- [ambiente de codificação](#id05)
+- [clonagem e instalação](#id06)
+- [deploy e implatação](#id06.01)
+- [autoria](#id07)
+
+
+# objetivos <a name="id01"></a>
+
+
+Apresentar minhas principais habilidades técnicas, projetos desenvolvidos e plataformas de interação on-line.
+
+
+
+# descrição detalhada <a name="id01.01"></a>
+
+A minha intenção com a criação do meu portfólio é gerar uma visão panorâmica do que venho exercendo e fazendo. Aqui contendo uma breve aprensentação de quem sou eu, do que estou trabalhando atualmente, das tecnologias que estou estudando, da graduação que estou fazendo, principais projetos desenvolvidos e links com redirecionamento para minhas principais plataformas profissionais de interação on-line.
+
+
+# tecnologias utilizadas <a name="id04"></a>
+
+<div  align='center'> 
+
 [![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=red)]()
 [![CSS](https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)]()
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow)]()
+</div>
 
-[comment]: <> (link para adicionar badges: https://dev.to/envoy_/150-badges-for-github-pnk) 
 
 </div>
 
