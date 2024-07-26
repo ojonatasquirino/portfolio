@@ -1,240 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-
-  <meta name="HandheldFriendly" content="true">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-  <!-- Título do site -->
-  <title>Quirino — Portfólio</title>
-  <meta property="og:title" content="Portfólio pessoal.">
-
-  <!-- Descrição do site -->
-  <meta name="description" content="Portfólio pessoal.">
-  <meta itemprop="description" content="Portfólio pessoal.">
-  <meta property="og:description" content="Portfólio pessoal.">
-
-  <!-- Cor tema do site -->
-  <meta name="theme-color" content="#FFFFFF">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-navbutton-color" content="#FFFFFF">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
-
-  <!-- Favicons do site -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-  <!-- Tamanho imagem compartilhamento -->
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1920">
-  <meta property="og:image:height" content="1080">
-  <meta property="og:type" content="website">
-  <meta property="og:card" content="summary_large_image">
-
-  <!-- Nome do Site -->
-  <meta name="author" content="Portfólio de Quirino">
-  <meta itemprop="name" content="Portfólio de Quirino">
-  <meta name="article:author" content="Portfólio de Quirino">
-  <meta name="application-name" content="Portfólio de Quirino">
-  <meta property="og:site_name" content="Portfólio de Quirino">
-  <meta name="apple-mobile-web-app-title" content="Portfólio de Quirino">
-  <!-- Importação do CSS -->
-  <link href="./assets/css/index/index.css" rel="stylesheet">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+  integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
+ <title>Jônatas Quirino</title>
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav>
-    <h2>portfólio</h2>
-    <div class="opcoes">
-      <a href="#sobremim">sobre mim</a>
-      <a href="#tecnologias">tecnologias</a>
-      <a href="#projetos">projetos</a>
-      <a href="https://github.com/ojonatasquirino" target="_blank"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/jonatasquirino/" target="_blank"> <i class="bi bi-linkedin"></i></a>
-      <a href="https://linkme-delta.vercel.app/" target="_blank"' class="destaque">contato</a>
-    </div>
-    <button class="menu">
-      <span class="um"></span>
-      <span class="dois"></span>
-    </button>
-  </nav>
+ <button id="theme-toggle"><i id="theme-icon" class="fas fa-moon"></i></button>
+ <div class="grid-2">
+  <div class="section-1">
+   <img src="/files/images/perfil.jpg" alt="Perfil">
+   <h2>Jônatas Quirino</h2>
+   <p>Salvador • Bahia</p>
+   <a href="#"><i class="fab fa-linkedin"></i></a>
+   <a href="#"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="section-2">
+   <h2>sobre</h2>
+   <p>Sou um jovem de 23 anos formado em Análise e Desenvolvimento de Sistemas pela Faculdade Tecnológica da Estácio.
+    <br><br>Apaixonado por tecnologia, design funcional/minimalista e gestão de negócios, minhas habilidades estão
+    concentradas em resolução de problemas com ferramentas do ecossistema JavaScript.</p>
 
-  <!-- section -->
-  <section class="apresentacao">
-    <div class="texto">
-      <h1>Jônatas Quirino</h1>
-      <h1><span>UI & front-end.</span></h1>
-      <p> Criatividade, agilidade e inovação. Com uma combinação única entre o
-        UI design e o código, crio
-        funcionalidades intuitivas com HTML,
-        CSS, SASS & Javascript, otimizando e
-        performando layouts desenvolvidos para web que trazem resultados
-        significativos para presenças on-line.</p>
-        <a href="https://bit.ly/linkquirino" target="_blank" class="botao-link">contato</a>
-    </div>
-    <div class="imagem">
-      <img src="./files/images/perfil.jpg">
-    </div>
-    </section>
+   <h2>habilidades</h2>
+   <p>As principais tecnologias de trabalho e projetos pessoais são HTML, CSS, JavaScript, TailwindCSS, React e NodeJS.
+   </p>
+   <h2>projetos</h2>
+   <a href="#">Bin2Dec</a>
+   <a href="#">LinkMe</a>
+   <a href="#">MinimalTask</a>
+   <a href="#">TimeZone</a>
+   <a href="#">Chat (em construção)</a>
 
-    <!-- sobre -->
-    <section class="sobre" id="sobremim">
-      <div class="titulo">
-        <h2 id="sobremim">SOBRE MIM</h2>
-        <p>Me chamo Jônatas Quirino, sou um jovem brasileiro, baiano e soteropolitano de 22 anos. Conheci a área de
-          desenvolvimento de software em 2022 e desde então sou apaixonado por inovações tecnológicas, programação e
-          design. <br>
-          <br>Atualmente estou me graduando no curso de Análise & Desenvolvimento de Sistemas pela Faculdade Tecnológica
-          da Estácio,
-          focando no desenvolvimento front-end com as tecnologias que giram em torno da linguagem Javascript.
-        </p>
-      </div>
-      <div class="img">
-        <div class="item">
-          <img src="./files/images/typing.png" alt="no pc">
-        </div>
-      </div>
-    </section>
+  </div>
+ </div>
 
-    <!-- tecnologias -->
-    <section class="tecnologias" id="tecnologias">
-      <div class="titulo">
-        <h2>TECNOLOGIAS</h2>
-        <p>Tecnologias de trabalho para aplicações web.</p>
-        <div class="linha"></div>
-      </div>
-      <div class="itens">
-        <div class="item">
-          <div class="linha"></div>
-          <div class="conteudo">
-            <h2>HTML</h2>
-            <h3></h3>
-            <p> HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção básico da web.
-              Define o significado e a estrutura e corpo do conteúdo exibido na web. Junto ao HTML, outras tecnologias
-              são
-              usadas para descrever a aparência/apresentação e a funcionalidade de uma página estática ou dinâmica da
-              web.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="linha"></div>
-          <div class="conteudo diferente">
-            <h2>CSS</h2>
-            <p> CSS é uma linguagem de estilo usada para descrever
-              a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG,
-              MathML ou XHTML). O CSS descreve como elementos são mostrados na tela e é amplamente usados para estilizar
-              páginas e layouts da web.</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="linha"></div>
-          <div class="conteudo">
-            <h2>JS</h2>
-            <p> Javascript é a linguagem principal para desenvolver na web, baseada em protótipos, multi-paradigma e
-              dinâmica,
-              suportando estilos de orientação a objetos, imperativos e declarativos.Toda interatividade da web está
-              baseada na linguagem que possui também funcionalidades extraordinárias no servidor com o NODEJS.
-            </p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="linha"></div>
-          <div class="conteudo diferente">
-            <h2>SASS</h2>
+ <!-- footer -->
+ <footer>
 
-            <p>O SASS é uma linguagem de extensão do CSS são folhas de estilo com uma sintaxe incrível. Seu objetivo é
-              tornar o processo de desenvolvimento mais simples e eficiente com mais versatilidade, sendo um formato
-              baseado em CSS cujo propósito é tornar obsoletos os problemas de desenvolvimento de frontend.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="copyright">
+   <div class="texto">
+    <p>Jônatas Quirino © <span id="ano-atual"></span> <br> Todos os direitos reservados.</a>
+    </p>
 
-    <!-- projetos -->
-    <section class="projetos" id="projetos">
-      <div class="titulo">
-        <h2>PROJETOS</h2>
-        <p>Desenvolver experiências digitais que encantam e simplificam projetos e negócios é uma das minhas paixões.
-          Acho
-          incrível como o UI
-          Design dá vida ao código e a capacidade de criar tudo o que eu quiser no mundo web. Cada projeto representa um
-          desafio único e uma oportunidade de crescimento profissional. <br>
-          <br>Estou sempre animado colaborando e entregando
-          novos projetos nas comunidades de tecnologia, além de interagir com sistemas open source. Aqui estão alguns do
-          meus melhores projetos:
-        <p>
-      </div>
-      <div class="descricao-projeto">
-        <div class="project">
-          <img src="./files/images/caravan.png">
-          <div class="texto">
-            <p>Esse projeto é um web site feito para uma agência de viagens, Caravan. Aqui explorei ao máximo minhas
-              habilidades com o Bootstrap, um framework extensível e repleto de recursos para desenvolvimento web. Além
-              disso, SASS (pré processador CSS) também foi utilizado no projeto.</p>
-          </div>
-          <a href="https://caravan-dun.vercel.app/" target="_blank">Visualizar projeto</a>
-        </div>
-        <div class="project">
-          <img src="./files/images/clonefb.png">
-          <div class="texto">
-            <p>Esse é um clone perfeito da tela de login do Facebook, atual Meta. Esse é um dos clones que já fiz apenas
-              inspecionando a original e refazendo tudo do zero.</p>
-          </div>
-          <a href="https://clone-facebook-delta.vercel.app/" target="_blank">Visualizar projeto</a>
-        </div>
-        <div class="project">
-          <img src="./files/images/linkme.png">
-          <div class="texto">
-            <p>Sempre quis organizar todos os meus links de redes sociais e profissionais em apenas um lugar, mas nunca
-              quis pagar pelos planos de assinatura de plataforma para customizá-los. Diante dessa situação, desenvolvi
-              e
-              customizei o meu próprio site de link, o linkMe. Aqui estão as minhas principais plataformas de contato e
-              interação digital.</p>
-          </div>
-          <a href="https://linkme-delta.vercel.app/" target="_blank">Visualizar projeto</a>
-        </div>
-      </div>
-    </section>
+   </div>
+ </footer>
 
-    <!-- github -->
-    <section class="github">
-      <div class="titulo">
-        <h2>Me <span>acompanhou</span> até aqui?</h2>
-        <p>Estou frequentemente aplicando novas tecnologias e ferramentas.<br> Acesse meus repositórios:</p>
-        <a href="https://github.com/ojonatasquirino" target="_blank"><i class="bi bi-github"> </i> </a>
-      </div>
-    </section>
-
-
-    <!-- footer -->
-    <footer>
-     
-      <div class="copyright">
-        <div class="texto">
-          <p>Jônatas Quirino © <span id="ano-atual"></span>  <br>  Todos os direitos reservados.</a>
-          </p>
-
-        </div>
-    </footer>
-
-    <!-- JS imports -->
-    <script src="./assets/js/global.js"></script>
-    <script src="./assets/js/loading.js"></script>
-    <script src="./assets/js/nav.js"></script>
-    <script src="./assets/js/scroll-perguntas.js"></script>
-    <script type="text/javascript" src="assets/js/vanilla.js"></script>
-    <script>
-      VanillaTilt.init(document.querySelectorAll(".conteudo"), {
-        max: 15,
-        speed: 900,
-        glare: true,
-        "max-glare": 0.5,
-      });
-    </script>
+ <script src="app/script.js"></script>
 </body>
+
 </html>
